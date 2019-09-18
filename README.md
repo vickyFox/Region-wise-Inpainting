@@ -1,5 +1,6 @@
 # Image inpainting via Region-Wise Convolution 
-This repository implements the training and testing code for "Region-wise Generative Adversarial Image Inpainting for Large Missing Areas". We propose an generic inpainting framework capable of handling with incomplete images on both continuous and discontinuous large missing areas, in an adversarial manner. we extend upon our prior conference publication "Coarse-to-Fine Image Inpainting via Region-wise convolutions and Non-local correlation" that mainly focuses on the discontinuous missing areas using the region-wise convolutions, suffering severe artifacts when the large missing areas are continuous. Some results are as follows. 
+This repository implements the training and testing code for "Region-wise Generative Adversarial Image Inpainting for Large Missing Areas". We propose an generic inpainting framework capable of handling with incomplete images on both continuous and discontinuous large missing areas, in an adversarial manner. We extend upon our prior conference publication "Coarse-to-Fine Image Inpainting via Region-wise convolutions and Non-local correlation" that mainly focuses on the discontinuous missing areas using the region-wise convolutions, suffering severe artifacts when the large missing areas are continuous. Some results are as follows. 
+
 ![](https://github.com/vickyFox/Region-wise-Inpainting/blob/master/images/image1.png)
 ## RUN
 
@@ -41,5 +42,5 @@ Download the pre-trained models and put them under the default directory ```\mod
 - continuous model: [CelebA-HQ](https://drive.google.com/open?id=1q7tuopiOwRPZOPYG5076EPoFLPo0CQF6) | [Paris](https://drive.google.com/open?id=1STSPPyLQ4LjWj-juT5nMXJ9X5h7N_fjO) | [Places2](https://drive.google.com/open?id=1zYxZPU7L6Ongu0tlkHEJTPxf9Cw4RvqQ)
 - discontinuous model: [CelebA-HQ](https://drive.google.com/open?id=1IsRRRcGIg-I1Dklxz09wO7UDiB5Q3Map) | [Paris](https://drive.google.com/open?id=1vtT6jiya2tSo6QVzVpbMFwoz6H9oGeZc) | [Places2](https://drive.google.com/open?id=1b9DubT3WTIKQ_GcQNAXxlB68c3C5jKX0) 
 
-Our main novelty of this project is the ability to handle with incomplete images on both continuous and discontinuous largemissing areas.
+Our main novelty of this project is the ability to handle with incomplete images on both continuous and discontinuous large missing areas.
 
