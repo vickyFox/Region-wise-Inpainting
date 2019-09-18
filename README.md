@@ -1,7 +1,5 @@
 # Image inpainting via Region-Wise Convolution 
-This repository implements the training and testing code for "Region-wise Generative Adversarial Image
-
-Inpainting for Large Missing Areas" .We can restore semantically reasonable and visually realistic images from an incomplete input. Some results are as follows.
+This repository implements the training and testing code for "Region-wise Generative Adversarial Image Inpainting for Large Missing Areas". We propose an generic inpainting framework capable of handling with incomplete images on both continuous and discontinuous large missing areas, in an adversarial manner. we extend upon our prior conference publication "Coarse-to-Fine Image Inpainting via Region-wise convolutions and Non-local correlation" that mainly focuses on the discontinuous missing areas using the region-wise convolutions, suffering severe artifacts when the large missing areas are continuous. Some results are as follows. 
 ## RUN
 
 **Requirements:**
