@@ -21,7 +21,7 @@ The code was trained and tested with Tensorflow 1.x.0.CUDA 9.0 ,Python 3.6
 
 **Datasets**
 
-- **Face dataset**: 28000 training images and 2000 test images from CelebA-HQ dataset
+- **Face dataset**: 28000 training images and 2000 test images from [CelebA-HQ](https://drive.google.com/drive/folders/0B7EVK8r0v71peklHb0pGdDl6R28)
 - **Paris dataset**: 14900 training images and 100 test images from [Paris](https://github.com/pathak22/context-encoder)
 - **natural images**: original training images and sampled test images(images sampled from the origin testing images) from [Places2](http://places2.csail.mit.edu/)
 
