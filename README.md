@@ -1,5 +1,5 @@
 # Image inpainting via Region-Wise Convolution 
-This repository implements the training and testing code for "Region-wise Generative Adversarial Image Inpainting for Large Missing Areas". We propose an generic inpainting framework capable of handling with incomplete images on both continuous and discontinuous large missing areas, in an adversarial manner. We extend upon our prior conference publication "Coarse-to-Fine Image Inpainting via Region-wise convolutions and Non-local correlation" that mainly focuses on the discontinuous missing areas using the region-wise convolutions, suffering severe artifacts when the large missing areas are continuous. Some results are as follows. 
+This repository implements the training and testing code for "Region-wise Generative Adversarial Image Inpainting for Large Missing Areas". We propose an generic inpainting framework capable of handling with incomplete images on both continuous and discontinuous large missing areas, in an adversarial manner. We extend upon our prior conference publication "[Coarse-to-Fine Image Inpainting via Region-wise convolutions and Non-local correlation](https://www.ijcai.org/proceedings/2019/0433.pdf)" that mainly focuses on the discontinuous missing areas using the region-wise convolutions, suffering severe artifacts when the large missing areas are continuous. Some results are as follows. 
 
 ![](https://github.com/vickyFox/Region-wise-Inpainting/blob/master/images/image1.png)
 ## RUN
@@ -44,3 +44,12 @@ Download the pre-trained models and put them under the default directory ```\mod
 
 Our main novelty of this project is the ability to handle with incomplete images on both continuous and discontinuous large missing areas.
 
+## Citing
+```
+@inproceedings{ma2019inpainting,
+  title={Coarse-to-Fine Image Inpainting via Region-wise Convolutions and Non-Local Correlation.},
+  author={Yuqing Ma and Xianglong Liu and Shihao Bai and Lei Wang and Dailan He and Aishan Liu},
+  booktitle={IJCAI},
+  year={2019}
+}
+```
