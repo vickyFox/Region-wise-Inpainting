@@ -13,7 +13,7 @@ import argparse
 
 if __name__=='__main__':
         parser = argparse.ArgumentParser(description='training code')
-        parser.add_argument('--train_data_path',type=str ,default="E:\\test\\" ,help='training data path')
+        parser.add_argument('--train_data_path',type=str ,default="" ,help='training data path')
         parser.add_argument('--epoch',type=int ,default=20 ,help='training epoch')
         parser.add_argument('--batch_size',type=int ,default=8 ,help='batch_size')
         parser.add_argument('--width',type=int ,default=256 ,help='images width')
