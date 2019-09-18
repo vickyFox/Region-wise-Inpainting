@@ -30,13 +30,15 @@ The code was trained and tested with Tensorflow 1.x.0.CUDA 9.0 ,Python 3.6
 - Run ```python train.py -h``` to get more command line arguments
 
 **Testing**
+
  ```python test.py --test_data_path your_data_path --mask_path your_mask_path --model_path pretrained_model```
 - We provide the pretrained models incuding celebA-HQ, Paris and Places2.
 - The default results will be saved under the results folder. You can set ```--file_out``` to choose a new path.
 
 ## Pretrained
 Download the pre-trained models and put them under the default directory ```\models``` or any other path you want.
-continuous model: [CelebA-HQ](https://drive.google.com/open?id=1q7tuopiOwRPZOPYG5076EPoFLPo0CQF6) | [Paris](https://drive.google.com/open?id=1STSPPyLQ4LjWj-juT5nMXJ9X5h7N_fjO) | [Places2](https://drive.google.com/open?id=1zYxZPU7L6Ongu0tlkHEJTPxf9Cw4RvqQ)
-discontinuous model: [CelebA-HQ](https://drive.google.com/open?id=1IsRRRcGIg-I1Dklxz09wO7UDiB5Q3Map) | [Paris](https://drive.google.com/open?id=1vtT6jiya2tSo6QVzVpbMFwoz6H9oGeZc) | [Places2](https://drive.google.com/open?id=1b9DubT3WTIKQ_GcQNAXxlB68c3C5jKX0) 
+- continuous model: [CelebA-HQ](https://drive.google.com/open?id=1q7tuopiOwRPZOPYG5076EPoFLPo0CQF6) | [Paris](https://drive.google.com/open?id=1STSPPyLQ4LjWj-juT5nMXJ9X5h7N_fjO) | [Places2](https://drive.google.com/open?id=1zYxZPU7L6Ongu0tlkHEJTPxf9Cw4RvqQ)
+- discontinuous model: [CelebA-HQ](https://drive.google.com/open?id=1IsRRRcGIg-I1Dklxz09wO7UDiB5Q3Map) | [Paris](https://drive.google.com/open?id=1vtT6jiya2tSo6QVzVpbMFwoz6H9oGeZc) | [Places2](https://drive.google.com/open?id=1b9DubT3WTIKQ_GcQNAXxlB68c3C5jKX0) 
+
 Our main novelty of this project is the ability to handle with incomplete images on both continuous and discontinuous largemissing areas.
 
