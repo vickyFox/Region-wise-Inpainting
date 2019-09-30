@@ -45,6 +45,23 @@ Our main novelty of this project is the ability to handle with incomplete images
 
 ## Citing
 ```
+@ARTICLE{2019arXiv190912507M,
+       author = {{Ma}, Yuqing and {Liu}, Xianglong and {Bai}, Shihao and {Wang}, Lei and
+         {Liu}, Aishan and {Tao}, Dacheng and {Hancock}, Edwin},
+        title = "{Region-wise Generative Adversarial ImageInpainting for Large Missing Areas}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computer Vision and Pattern Recognition},
+         year = "2019",
+        month = "Sep",
+          eid = {arXiv:1909.12507},
+        pages = {arXiv:1909.12507},
+archivePrefix = {arXiv},
+       eprint = {1909.12507},
+ primaryClass = {cs.CV},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190912507M},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
 @inproceedings{ma2019inpainting,
   title={Coarse-to-Fine Image Inpainting via Region-wise Convolutions and Non-Local Correlation.},
   author={Yuqing Ma and Xianglong Liu and Shihao Bai and Lei Wang and Dailan He and Aishan Liu},
